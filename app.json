@@ -20,6 +20,9 @@
         },
         "TO_CHAT": {
             "description": "to channel or group or chat id for auto post"
+        },
+        "SESSION": {
+            "description": "Enter the session id got from repl"
         }
     },
     "buildpacks": [
