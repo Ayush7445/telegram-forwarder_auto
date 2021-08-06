@@ -22,7 +22,7 @@
             "description": "to channel or group or chat id for auto post"
         },
         "SESSION": {
-            "description": "Enter the session id got from repl"
+            "description": "Enter the session id got from repl https://replit.com/@TeamUltroid/UltroidStringSession"
         }
     },
     "buildpacks": [
