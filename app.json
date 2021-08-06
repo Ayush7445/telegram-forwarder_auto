@@ -18,7 +18,7 @@
         "FROM_CHANNELS": {
             "description": "from channel ids for auto post, Use Space to add multiple Channels"
         },
-        "TO_CHAT": {
+        "TO_CHANNEL": {
             "description": "to channel or group or chat id for auto post"
         },
         "SESSION": {
