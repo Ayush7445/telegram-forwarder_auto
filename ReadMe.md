@@ -30,8 +30,5 @@ All new messages will be auto-posted!!
 Join the channel from you want the posts to be taken.
 Join as admin in the channel where you want the posts to be sent to.
 
-Visit [@BotzHubChat](https://t.me/BotzHubChat) for help.
 ## Credits
 > [Lonami](https://github.com/LonamiWebs), for [Telethon](https://github.com/LonamiWebs/Telethon).   
-> [xditya](https://github.com/xditya), me.   
-> [@Unkn0wn_007](https://t.me/Unkn0wn_007), for the whole idea.   
