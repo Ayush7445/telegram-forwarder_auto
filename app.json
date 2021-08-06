@@ -17,11 +17,9 @@
         },
         "FROM_CHANNELS": {
             "description": "from channel ids for auto post, Use Space to add multiple Channels",
-            "required": false
         },
         "TO_CHAT": {
             "description": "to channel or group or chat id for auto post",
-            "required": false
         }
     },
     "buildpacks": [
