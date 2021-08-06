@@ -16,12 +16,11 @@ This makes a user send all messages from one/many chat(s) to another chat(s).
 <summary>Heroku/Kintohub/Zeet</summary>
 <br>
 Add the above values to the environment vars and deploy the bot.
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 </details>
 <details>
 <summary>Local Deoploys</summary>
 <br>
-- Clone the repo:   <code>git clone https://github.com/xditya/ChannelAutoForwarder</code></br>
+- Clone the repo:   <code>git clone https://github.com/Ayush7445/telegram-auto_forwarder</code></br>
 - Make a <code>.env</code> file in the root of the repo, like <a href="https://github.com/xditya/ChannelAutoForwarder/blob/main/.env.sample">.env.sample</a> and fill in the values.</br>
 - Use <code>python3 bot.py</code> to start the bot.</br>  
 </details>
