@@ -14,6 +14,7 @@ This makes a user send all messages from one/many chat(s) to another chat(s).
 <summary>Heroku/Kintohub/Zeet</summary>
 <br>
 Add the above values to the environment vars and deploy the bot.
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 </details>
 <details>
 <summary>Local Deoploys</summary>
