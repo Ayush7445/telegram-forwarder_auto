@@ -30,7 +30,7 @@ All new messages will be auto-posted!!
 Join the channel from you want the posts to be taken.
 Join as admin in the channel where you want the posts to be sent to.
 
-[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-blue)](https://t.me/joinchat/QiGxI8jGZKA4Mjll)
+[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-blue)](https://t.me/joinchat/QiGxI8jGZKA4Mjll) - Join it for Update purpose. 
 
 ## Credits
 > [Lonami](https://github.com/LonamiWebs), for [Telethon](https://github.com/LonamiWebs/Telethon).   
