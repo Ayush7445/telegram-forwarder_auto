@@ -15,7 +15,7 @@
         "API_HASH": {
             "description": "Your API_HASH from https://my.telegram.org/apps"
         },
-        "FROM_CHANNELS": {
+        "FROM_CHANNEL": {
             "description": "from channel ids for auto post, Use Space to add multiple Channels"
         },
         "TO_CHANNEL": {
