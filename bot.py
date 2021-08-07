@@ -9,7 +9,7 @@
 #    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU 
 #    General Public License for more details.
 # 
-#    License can be found in < https://github.com/xditya/ChannelAutoForwarder/blob/main/License> .
+#    License can be found in < https://github.com/Ayush7445/telegram-auto_forwarder/blob/main/License > .
 
 from telethon import TelegramClient, events
 from decouple import config
