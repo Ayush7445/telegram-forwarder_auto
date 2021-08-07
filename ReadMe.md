@@ -30,5 +30,6 @@ All new messages will be auto-posted!!
 Join the channel from you want the posts to be taken.
 Join as admin in the channel where you want the posts to be sent to.
 
+[Update Telegram Channel](https://t.me/joinchat/QiGxI8jGZKA4Mjll)
 ## Credits
 > [Lonami](https://github.com/LonamiWebs), for [Telethon](https://github.com/LonamiWebs/Telethon).   
