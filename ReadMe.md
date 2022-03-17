@@ -6,6 +6,8 @@ This makes a user send all messages from one/many chat(s) to another chat(s).
 
 [![YouTube Video](https://img.shields.io/badge/youtube-video-red)](https://youtu.be/_83nexTIUaU) - Deploy Tutorial On YouTube
 
+[![YouTube Video](https://img.shields.io/badge/youtube-video-red)](https://youtu.be/ctdQhVOxd0I) - Heroku Error Solution
+
 ## Setting up 
 * First:
 > `APP_ID` and `API_HASH` - Get it from my.telegram.org   
