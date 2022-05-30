@@ -2,7 +2,7 @@
 
 This makes a user send all messages from one/many chat(s) to another chat(s).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ayush7445/telegram-forwarder_auto)
 
 [![YouTube Video](https://img.shields.io/badge/youtube-video-red)](https://youtu.be/_83nexTIUaU) - Deploy Tutorial On YouTube
 
