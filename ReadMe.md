@@ -13,7 +13,9 @@ This makes a user send all messages from one/many chat(s) to another chat(s).
 > `APP_ID` and `API_HASH` - Get it from my.telegram.org   
 > `SESSION` - A telethon session string, get it from [here](https://replit.com/@TeamUltroid/UltroidStringSession).   
 > `FROM_CHANNEL` - Channel ID(s) split by space or just one channel ID.   
-> `TO_CHANNEL` - Channel ID(s) split by space or just one channel ID.   
+> `TO_CHANNEL` - Channel ID(s) split by space or just one channel ID.
+> `BLOCKED_TEXTS` - To block any specific text in message. ( If that text is found inside the text, then that message will not get forward)
+> `MEDIA_FORWARD_RESPONSE` - To manage media forward. ( To allow media forward - yes or no).  
 
 * Chose a platform to deploy on:
 <details>
