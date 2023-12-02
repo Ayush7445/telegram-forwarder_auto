@@ -4,10 +4,10 @@
     "keywords": [
       "telegram",
       "forward",
-      "auto-forward",
+      "auto-forwards",
       "send"
     ],
-    "repository": "https://github.com/Ayush7445/telegram-forwarder_auto",
+    "repository": "https://github.com/steallootdeal/auto_forwarder",
     "env": {
         "APP_ID": {
             "description": "Your API_ID from https://my.telegram.org/apps"
