@@ -53,9 +53,9 @@ except Exception as ap:
 async def sender_bH(event):
     for i in TO:
         try:
-            message_text = event.raw_text.lower()
+            message_text = event.raw
 
-            if any(blocked_text in message_text for blocked_text in BLOCKED_TEXTS):
+            if any(blocked_text.lower() in message_text.lower() for blocked_text in BLOCKED_TEXTS):
                 print(f"Blocked message containing one of the specified texts: {event.raw_text}")
                 logging.warning(f"Blocked message containing one of the specified texts: {event.raw_text}")
                 continue
