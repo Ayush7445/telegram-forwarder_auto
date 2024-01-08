@@ -33,6 +33,19 @@ TO_ = config("TO_CHANNEL", default="", cast=str)
 BLOCKED_TEXTS = config("BLOCKED_TEXTS", default="", cast=lambda x: [i.strip().lower() for i in x.split(',')])
 MEDIA_FORWARD_RESPONSE = config("MEDIA_FORWARD_RESPONSE", default="yes").lower()
 
+# Read REPLACE_DICT from environment variables [@dhruvknsr]
+replace_dict_str = config("REPLACE_DICT", default="", cast=str)
+replace_dict_items = [item.split(':') for item in replace_dict_str.split(',') if item]
+replace_dict = {replace_text : replace_with for replace_text, replace_with in replace_dict_items}
+
+# Replacement for Case Insensitive Function [@dhruvknsr]
+def replace_case_insensitive(original, pattern, replacement):
+    index = original.lower().find(pattern.lower())
+    if index != -1:
+        return original[:index] + replacement + original[index + len(pattern):]
+    return original
+print("REPLACE_DICT:", replace_dict)
+
 FROM = [int(i) for i in FROM_.split()]
 TO = [int(i) for i in TO_.split()]
 
@@ -52,7 +65,15 @@ except Exception as ap:
 async def sender_bH(event):
     for i in TO:
         try:
-            message_text = event.raw
+            original_message_text = event.raw_text
+            message_text = original_message_text
+
+            # Replacing Text [@dhruvknsr]
+            for replace_text, replace_with in replace_dict.items():
+                if replace_text.lower() in message_text.lower():
+                    message_text = replace_case_insensitive(message_text, replace_text, replace_with)
+                    print(f"Message after replacement: {message_text}")
+                continue
 
             if any(blocked_text.lower() in message_text.lower() for blocked_text in BLOCKED_TEXTS):
                 print(f"Blocked message containing one of the specified texts: {event.raw_text}")
